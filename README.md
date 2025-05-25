@@ -8,13 +8,13 @@
 ### The Problem: Ill-posed Linear Systems
 * Consider the following _Linear System__: __Ax = b__, where we want to find the components of the vector __x__, given some observations/data __b__.
 * If:
-    * __A__ is ill-conditioned (has near-zero singular values),
-    * or the system is underdetermined (more unknowns than equations),
+    * __A__ is __Ill-Conditioned__ (has near-zero singular values),
+    * or the system is __Underdetermined__ (more unknowns than equations),
     * or the observations/data __b__ are noisy,
 * then, solving __x__ directly gives wild, unstable, or meaningless results.
 
 ### The Solution: Add Regularization
-* Tikhonov proposes solving: __x_λ​=argxmin​(∥Ax−b∥^2 + λ^2∥Lx∥^2)__.
+* Tikhonov proposes solving: __x_λ ​= argxmin​(∥Ax−b∥^2 + λ^2∥Lx∥^2)__.
 * Where:
     * __∥Ax−b∥^2__ is the __Data Fidelity__ term (fit the data).
     * __λ^2∥Lx∥^2__ is the regularization term (penalizes “bad” solutions).
@@ -28,4 +28,4 @@
 * `Eigen Template Library`.
 
 ### Getting and Running the Software
-  
+* TODO.
