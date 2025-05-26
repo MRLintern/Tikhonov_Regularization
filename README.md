@@ -6,7 +6,7 @@
 * This __Regularization Method__ will be used in the [PoissonDensity](https://github.com/MRLintern/PoissonDensity) project.
 
 ### The Problem: Ill-posed Linear Systems
-* Consider the following _Linear System__: __Ax = b__, where we want to find the components of the vector __x__, given some observations/data __b__.
+* Consider the following __Linear System__: __Ax = b__, where we want to find the components of the vector __x__, given some observations/data __b__.
 * If:
     * __A__ is __Ill-Conditioned__ (has near-zero singular values),
     * or the system is __Underdetermined__ (more unknowns than equations),
