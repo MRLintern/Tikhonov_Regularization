@@ -28,4 +28,10 @@
 * `Eigen Template Library`.
 
 ### Getting and Running the Software
-* TODO.
+* `$ git clone git@github.com:MRLintern/Tikhonov_Regularization.git`
+* `$ cd Tikhonov_Regularization`
+* `$ mkdir build -p && cd build`
+* `$ cmake ..`
+* `$ cmake --build .`
+* Move the input data files, `A.txt` and `b.txt` to the `build` directory.
+* `$ ./main`
