@@ -3,7 +3,6 @@
 ### Introduction
 * ___Tikhonov Regularization___ is a method used to solve __Ill-Posed Inverse Problems__.
 * Essentially, it helps __stabilize__ the solution when the original problem is unstable, noisy, or has no unique solution.
-* This __Regularization Method__ will be used in the [PoissonDensity](https://github.com/MRLintern/PoissonDensity) project.
 
 ### The Problem: Ill-posed Linear Systems
 * Consider the following __Linear System__: __Ax = b__, where we want to find the components of the vector __x__, given some observations/data __b__.
